@@ -25,7 +25,7 @@ defmodule TelemetryEmitter.MixProject do
 
   defp deps do
     [
-      {:telemetry_metrics, "~> 0.6"},
+      {:telemetry_metrics, "~> 0.6 or ~> 1.0"},
       {:ex_doc, "~> 0.28", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0", only: :test, runtime: false}
     ]
